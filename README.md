@@ -51,10 +51,6 @@ graph LR
 2. **MQTT Protocol:** The edge device acts as an MQTT publisher. MQTT is ideal here because it allows the "Cloud Server" to be decoupled from the edge device; the server just needs to know the broker and topic.
 3. **Telegram Integration:** Using the `requests` library, the subscriber script sends a POST request to the Telegram Bot API. This bridges the IoT system with a real-world messaging platform for instant alerts.
 
-## Screenshot of Telegram Alert
-![Telegram Alert Placeholder](https://via.placeholder.com/400x200?text=Telegram+Alert:+High+temperature+29.3+C)
-*(Note: Replace this with your actual screenshot of the Telegram message)*
-
 ## Reflection Question
 **Why is MQTT useful for building monitoring and alert systems in IoT?**
 
