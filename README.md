@@ -1,4 +1,4 @@
-# Wireless and Radiotechnology Course 2026: MQTT and Telegram Alert System
+# MQTT and Telegram Alert System
 
 ## Objective
 This project extends an IoT system by adding a real-time alert system using Telegram. When the temperature received from a sensor exceeds a specified threshold (e.g., 28°C), the system sends an automated notification to a Telegram bot.
